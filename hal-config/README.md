@@ -10,7 +10,7 @@ Steps:
 2. Copy the script inside the halyard in the /tmp folder
 4. chmod +x config-spin.sh
 5. execute: ```./config-spin.sh```
-6. The script prompts for the AWS-SECRET-KEY 2 times. Please entire it.
+6. The script prompts for the AWS-SECRET-KEY 2 times. Please enter it.
 
    NOTE: everything is configured for us-east-1 region. Double check .hal/config to ensure that the region is matching
 
