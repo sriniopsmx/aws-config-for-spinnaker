@@ -16,7 +16,7 @@ Steps:
 Check if the account configuration is successful:
 1. tail logs of clouddriver (or clouddriver-caching if HA) to see that the AWS account shows up
 
-Once everything is successful, "aws-account" should show up in Spinnaker. Easy way to test:
+Once everything is successful, "aws-account" should show up in Spinnaker **AFTER 5-10 Minutes**. Easy way to test:
 - Open any applcation in Spinnaker -> Config -> Enable AWS (if this is visible, we are good)
 - Go to Cluster tab in Spinnaker, "Create Server Group"
 - An alternative is also to check the "<ISD-Base>/gate/credentials" endpoint to see that "aws-account" is present and enabled is "true"
