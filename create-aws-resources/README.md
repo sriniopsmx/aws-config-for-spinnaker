@@ -1,8 +1,8 @@
 # Create AWS resources required for Spinnaker
 
-a) Resouce creation is done via a terraform script. If you don't have terraform installed on your laptop, please install it by following the instructions https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
-b) The terraform script must be executed using credentials of a user with certain permissions. See the folder user-acc-config for the instrucsions.
-c) It creates a user(**ROL-Spinnaker-Managing-User**), role(**ROL-Spinnaker-Managed-Role**) and Policy(**spinnaker_non_eks_policy**) for Spinnaker to use AWS resources. 
+- Resouce creation is done via a terraform script. If you don't have terraform installed on your laptop, please install it by following the instructions https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
+- The terraform script must be executed using credentials of a user with certain permissions. See the folder user-acc-config for the instrucsions.
+- It creates a user(**ROL-Spinnaker-Managing-User**), role(**ROL-Spinnaker-Managed-Role**) and Policy(**spinnaker_non_eks_policy**) for Spinnaker to use AWS resources. 
 
 1. Edit terraform script: Serach and replace YOUR-ACCOUNT-ID with your AWS account ID
 2. Execute terraform script by following these steps:
