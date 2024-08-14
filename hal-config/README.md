@@ -2,7 +2,7 @@
 
 The config-spin.sh contains the commands for configuring spinnaker using halyard.
 
-- Note1: ERROR in logs: ```Unable to retrieve the requested metadata (/latest/dynamic/instance-identity/document). Failed to connect to service endpoint:``` is NORMAL for Spinnaker running outside of AWS cluster.
+- Note1: ERROR in logs: ```Unable to retrieve the requested metadata (/latest/dynamic/instance-identity/document). Failed to connect to service endpoint:``` is **NORMAL** for Spinnaker running outside of AWS cluster.
 - Note2: Please delete any AWS account previously configured from .hal/configure
 
 Steps:
