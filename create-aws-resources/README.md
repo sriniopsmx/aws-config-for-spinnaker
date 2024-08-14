@@ -15,5 +15,5 @@
 - terraform apply # Create resourcestype yes
 
 
-Finally, to delete the resources created
+If required, to delete the resources created
 - terraform destroy
