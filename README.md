@@ -6,7 +6,7 @@ The process involves the following, instructions are in each of the folders:
 
 
 TODO:
-- Create VPC with Tags - some files are there and they might interfere with account creation. **Delete vpc.tf**.
+- Done: Create VPC with Tags 
 - Create ECS Cluster
 - Configure Spinnaker ECS account
 
