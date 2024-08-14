@@ -5,3 +5,5 @@
 3. Create Access Key: Select "Application running outside AWS", Save the ACCESS-KEY and SECRET-KEY. We need these later.
 4. Give the user created in (2) these permissions: (IAM->Users->click on on the user->Add Permissions->Inline->JSON->Copy-paste user-permissions)
   - Copy paste the contents of the file: user-policies-needed-for-terraform
+  - Next, give a name, save
+5. Do the same as (4) again for another set of permission in vpc-user-polices-for-terraform
