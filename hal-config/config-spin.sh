@@ -2,7 +2,7 @@
 # Script will prompt for the secret-key 2 times, enter it on the screen
 
 export ACCOUNT_ID=YOUR-ACCOUNT-ID
-export ACCESS_KEY_ID=YOUR-SECRET-KEY
+export ACCESS_KEY_ID=YOUR-ACCESS-KEY
 
 # Change this if you want.
 export AWS_ACCOUNT_NAME="aws-account"
