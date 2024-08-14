@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:CreateUser",
+        "iam:CreatePolicy",
+        "iam:CreatePolicy",
+        "iam:CreateRole",
+        "iam:AttachRolePolicy",
+        "iam:AttachUserPolicy",
+        "iam:DeleteUser",
+        "iam:DeletePolicy",
+        "iam:DeleteRole",
+        "iam:DetachRolePolicy",
+        "iam:DetachUserPolicy",
+        "iam:Get*",
+        "iam:List*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
