@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "application-autoscaling:*",
+                "ecs:DescribeServices",
+                "ecs:UpdateService",
+                "cloudwatch:DescribeAlarms",
+                "cloudwatch:PutMetricAlarm",
+                "cloudwatch:DeleteAlarms",
+                "cloudwatch:DescribeAlarmHistory",
+                "cloudwatch:DescribeAlarmsForMetric",
+                "cloudwatch:GetMetricStatistics",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:DisableAlarmActions",
+                "cloudwatch:EnableAlarmActions",
+                "iam:CreateServiceLinkedRole",
+                "sns:CreateTopic",
+                "sns:Subscribe",
+                "sns:Get*",
+                "sns:List*"
+            ],
+            "Resource": ["*"]
+        }
+    ]
+}
