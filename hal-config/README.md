@@ -12,6 +12,8 @@ Steps:
 5. execute: ```./config-spin.sh```
 6. The script prompts for the AWS-SECRET-KEY 2 times. Please entire it.
 
+   NOTE: everything is configured for us-east-1 region. Double check .hal/config to ensure that the region is matching
+
 
 Check if the account configuration is successful:
 1. tail logs of clouddriver (or clouddriver-caching if HA) to see that the AWS account shows up
