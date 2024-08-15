@@ -9,9 +9,12 @@ The process involves the following, instructions are in each of the folders:
 
 
 TODO:
-- Done: Create VPC with Tags 
-- Done: Configure Spinnaker ECS account
-- Manual: Create ECS Cluster
+- Create key (required for EC2 deploy)
+- Create LB+Target group
+- 
 - Instructions for running sample EC2 pipeline
 - Instructions for running sample ECS deployment
+- Manual: Create ECS Cluster
+- Done: Create VPC with Tags 
+- Done: Configure Spinnaker ECS account
 
