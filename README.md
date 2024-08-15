@@ -18,3 +18,5 @@ TODO:
 - Done: Create VPC with Tags 
 - Done: Configure Spinnaker ECS account
 
+Next Project:
+- Setup Spinnaker-Config on EKS
