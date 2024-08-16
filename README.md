@@ -19,3 +19,6 @@ TODO:
 
 Next Project:
 - Setup Spinnaker-Config on EKS
+
+Blog:
+https://www.opsmx.com/blog/deploying-to-aws-ec2-using-spinnaker/
