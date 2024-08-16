@@ -9,10 +9,9 @@ The process involves the following, instructions are in each of the folders:
 
 
 TODO:
-- Create LB+Target group
-- 
 - Instructions for running sample EC2 pipeline
 - Instructions for running sample ECS deployment
+- AVAILBLE: Create LB+Target group
 - Manual: Create ECS Cluster
 - Done: Create VPC with Tags 
 - Done: Configure Spinnaker ECS account
