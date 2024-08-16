@@ -9,7 +9,6 @@ The process involves the following, instructions are in each of the folders:
 
 
 TODO:
-- Create key (required for EC2 deploy)
 - Create LB+Target group
 - 
 - Instructions for running sample EC2 pipeline
@@ -17,6 +16,7 @@ TODO:
 - Manual: Create ECS Cluster
 - Done: Create VPC with Tags 
 - Done: Configure Spinnaker ECS account
+- DONE: Create key (required for EC2 deploy)
 
 Next Project:
 - Setup Spinnaker-Config on EKS
